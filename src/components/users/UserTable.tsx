@@ -54,8 +54,12 @@ import Swal from "sweetalert2";
 
     return (
       <div>
+        <div className=" flex justify-between">
         <p className=" text-center">Total User ({ userList?.length })</p>
-              <Table>
+         <Button> Add New User </Button>
+        </div>
+
+       <Table>
         <TableCaption>A list of users.</TableCaption>
         <TableHeader>
           <TableRow>
